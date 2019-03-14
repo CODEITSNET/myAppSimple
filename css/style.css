@@ -1,0 +1,72 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.text-muted {
+  margin-left: 179px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-right: 179px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: rgb(124, 72, 72) !important;
+}
+/* FORM*/
+.jumbotron {
+  text-align:left;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: 'Lobster', cursive;
+}
+.jumbotron h2 {
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+/*FOOTER*/
+.footer {
+  text-align: center;
+}
+label {
+  font-weight: bold;
+}
+.well {
+  margin-right: 380px;
+  color: white;
+  margin-bottom: 10px;
+  float: right;
+}
+.well h3 {
+  text-align: left;
+  padding-left: 70px;
+  font-size: 15px;
+  float: left;
+}
+.well .btn {
+   
+}
+.well .btn-success {
+   text-align: center;
+   padding-left: 80px;
+   padding-right: 80px;
+   margin-left: 100px;
+}
+.well .btn-danger {
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.footer {
+  color: white;
+  margin-top: 30px;
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
